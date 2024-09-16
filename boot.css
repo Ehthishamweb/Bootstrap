@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+
+.row{
+    background: rgb(147,147,147);
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px;
+    width: auto;
+    height: 37.5rem;
+}
+
+img{
+    width: 120%;
+    height: 37.5rem;
+    border-top-left-radius: 360px;
+    border-bottom-left-radius: 360px;
+    border-top-right-radius: 360px;
+    border-bottom-right-radius: 360px;
+}
+
+.login h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.inp{
+    height:50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -19px -30px -19px rgba(7, 7,7,0.95);
+}
+
+.btn1{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600 ;
+    background: rgb(0,234,235);
+}
+
+.btn1:hover{
+    background: rgb(11,181,250);
+}
+
+.log:hover{
+    color: rgb(35, 35, 215);
+    cursor: grab;
+
+}
+
+.fa-brands{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.fa-facebook:hover{
+    color:blueviolet;
+}
+.fa-instagram:hover{
+    color: red;
+}
+.fa-github:hover{
+    color: black;
+}
+.fa-linkedin:hover{
+    color: blue;
+}
